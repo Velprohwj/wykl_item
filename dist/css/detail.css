@@ -1,0 +1,342 @@
+@charset "UTF-8";
+html, body {
+  background-color: #ffffff; }
+
+/*导航栏*/
+.nav_l dd {
+  display: none; }
+
+.nav_l:hover dd {
+  display: block; }
+
+/*侧边导航*/
+.side {
+  position: absolute;
+  top: 211px; }
+
+.navbox {
+  height: 60px;
+  padding: 19px 0;
+  clear: both;
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 40px; }
+
+.navbox > b, .navbox > i, .navbox .nav-clex {
+  float: left;
+  line-height: 22px; }
+
+.navbox > i {
+  margin: 0 4px;
+  color: #999999; }
+
+.navbox > b {
+  font-size: 13px;
+  color: #999999;
+  font-weight: normal; }
+
+.navbox .nav-clex > a {
+  padding: 0 5px;
+  border: 1px solid #999999; }
+
+.navbox .nav-clex img {
+  width: 14px;
+  margin: 0 0 4px 4px; }
+
+.navbox .nav-clex {
+  position: relative; }
+
+.navbox .nav-clex:hover > a {
+  border-bottom: 0; }
+
+.navbox .nav-clex:hover .camera {
+  display: block; }
+
+.navbox .nav-clex .camera {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 600px;
+  height: 64px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #999999;
+  display: none; }
+
+.navbox .nav-clex .camera > a {
+  float: left;
+  display: block;
+  width: 120px;
+  height: 22px;
+  line-height: 22px;
+  color: #333333; }
+
+/*放大镜*/
+.enlargeBox {
+  width: 100%;
+  height: 614px; }
+
+.Pinfowrap {
+  float: left;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  position: relative; }
+
+/*去除img底部3-4px间隙*/
+.Pinfowrap img {
+  width: 100%;
+  height: 100%;
+  display: block; }
+
+.Pinfowrap > .show {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  border: 1px solid #dddddd; }
+
+.Pinfowrap > .show > .mask {
+  width: 200px;
+  height: 200px;
+  background-color: #000000;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: move;
+  display: none; }
+
+.Pinfowrap > .list {
+  box-sizing: content-box;
+  height: 70px;
+  padding: 3px 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #dddddd;
+  display: flex;
+  justify-content: center; }
+
+.Pinfowrap > .list > p {
+  box-sizing: content-box;
+  width: 64px;
+  height: 64px;
+  margin-right: 10px; }
+
+.Pinfowrap > .list > p.active {
+  border: 3px solid #d5002a; }
+
+.Pinfowrap > .enlarge {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 430px;
+  /*放大镜图片*/
+  background: url(../img/fdj-1.jpg) no-repeat;
+  background-size: 800px 800px;
+  display: none; }
+
+.enlarge-con {
+  float: left;
+  margin-left: 32px;
+  width: 664px; }
+
+.enlarge-con > p {
+  line-height: 24px;
+  color: #999999;
+  margin-bottom: 6px; }
+
+.enlarge-con > p > img {
+  width: 24px;
+  margin-right: 8px; }
+
+.enlarge-con > p > a {
+  color: #999;
+  margin-left: 3px; }
+
+.enlarge-con > p > a:hover {
+  text-decoration: underline; }
+
+.enlarge-con > span {
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333333; }
+
+.enlarge-con .de-title {
+  height: 40px;
+  margin-top: 3px;
+  background: -webkit-linear-gradient(left, #ff070f, #ff2d59); }
+
+.enlarge-con .de-title p {
+  height: 40px;
+  line-height: 40px;
+  color: #ffffff; }
+
+.enlarge-con .de-title p.fl {
+  font-size: 16px;
+  padding-left: 112px;
+  background: url(../img/del-1.png) no-repeat;
+  background-size: 100px 40px; }
+
+.enlarge-con .de-title p.fr {
+  margin-right: 12px; }
+
+.enlarge-con .price-wrap {
+  background-color: #f9f9f9;
+  border-bottom: 1px dotted #ddd; }
+
+.enlarge-con .price {
+  height: 42px;
+  padding-top: 10px; }
+
+.enlarge-con .price-wrap i {
+  color: #666;
+  vertical-align: middle;
+  margin: 0 8px; }
+
+.enlarge-con .price em {
+  font-size: 26px;
+  color: #f11320;
+  margin-left: 30px;
+  font-weight: bold;
+  vertical-align: middle; }
+
+.enlarge-con .price span {
+  display: inline-block;
+  height: 18px;
+  padding: 0 5px;
+  background: #f68587;
+  color: #ffffff;
+  border-radius: 3px; }
+
+.enlarge-con .price-wrap .stages {
+  height: 21px;
+  margin-top: 6px;
+  margin-bottom: 10px; }
+
+.price-wrap .stages span {
+  box-sizing: content-box;
+  display: inline-block;
+  height: 18px;
+  line-height: 18px;
+  font-size: 12px;
+  margin-left: 34px;
+  padding: 1px 4px;
+  border-radius: 3px;
+  background: -webkit-linear-gradient(left, #ffb340, #fa5512);
+  color: #ffffff; }
+
+.price-wrap .stages b {
+  font-size: 20px;
+  color: #333333;
+  font-weight: bold;
+  vertical-align: middle; }
+
+.price-wrap .stages em {
+  color: #333333;
+  vertical-align: sub;
+  font-size: 13px;
+  margin-right: 20px; }
+
+.price-wrap .stages a {
+  color: #f11320;
+  font-size: 13px; }
+
+.price-wrap .stages a:hover {
+  text-decoration: underline; }
+
+.price-wrap > p {
+  padding-left: 80px;
+  height: 20px;
+  line-height: 20px;
+  color: #1e1e1e; }
+
+.price-wrap > p > img {
+  height: 20px;
+  margin-right: 4px; }
+
+.price-wrap .msg {
+  margin-left: 85px; }
+
+.price-wrap .msg a {
+  color: #4a90e2;
+  line-height: 22px;
+  padding-left: 54px; }
+
+.enlarge-con .nums {
+  margin-top: 16px;
+  height: 24px;
+  margin-bottom: 25px; }
+
+.enlarge-con .em {
+  display: inline-block;
+  color: #666666;
+  margin-left: 10px;
+  width: 75px;
+  height: 24px; }
+
+.enlarge-con .nums span {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #ccc; }
+
+.enlarge-con .nums span a {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-color: #f3f3f3;
+  line-height: 24px; }
+
+.enlarge-con .nums span a:nth-child(1) {
+  border-right: 1px solid #ccc; }
+
+.enlarge-con .nums span a:nth-child(3) {
+  border-left: 1px solid #ccc; }
+
+.enlarge-con .nums span input {
+  width: 48px;
+  height: 14px;
+  padding: 5px 0;
+  text-align: center; }
+
+.enlarge-con .nums strong {
+  color: #e31436;
+  margin-left: 5px;
+  font-weight: normal; }
+
+.enlarge-con .explain {
+  margin-bottom: 10px; }
+
+.enlarge-con .explain i {
+  color: #666666; }
+
+.enlarge-con > a {
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold; }
+
+.enlarge-con .buyBtn {
+  width: 160px;
+  color: #d41c44;
+  border: 2px solid #d41c44;
+  background-color: #ffcccd;
+  margin-right: 20px; }
+
+.enlarge-con .buyBtn:hover {
+  color: #f8305b;
+  border-color: #f8305b;
+  background-color: #fffaf8; }
+
+.enlarge-con .joinBtn {
+  width: 180px;
+  color: #fff;
+  background-color: #e31436; }
+
+.enlarge-con .joinBtn:hover {
+  background-color: #f5345e; }

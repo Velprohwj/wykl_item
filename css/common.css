@@ -1,0 +1,128 @@
+.w{
+    width: 1096px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/*快捷导航栏*/ 
+.shortcut{
+    height: 30px;
+    line-height: 30px;
+    background-color: black;
+    color: #999999;
+}
+.shortcut ul li{
+    float: left;
+}
+.shortcut a{
+    color: #999999;
+    padding: 0 15px;
+}
+.shortcut a:hover{
+    color: #ffffff;
+    font-weight: bold;
+}
+/* 头部 */
+.header{
+    height: 101px;
+    border-top: 1px solid #ededee;
+}
+.header .w {
+    position: relative;
+}
+.header .logo{
+    position: absolute;
+    top: 21px;
+    left: 1px;
+}
+.header .logo a{
+    display: block;
+    width: 210px;
+    height: 65px;
+    background: url(./img/logo.png) no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.search{
+    position: absolute;
+    left: 343px;
+    top: 34px;
+    width: 511px;
+    height: 40px;
+    line-height: 40px;
+    border: 2px solid #ff2337;
+    border-radius: 20px;
+}
+.search input{
+    float: left;
+    width: 451px;
+    height: 36px;
+    border-radius: 18px;
+    padding-left: 32px;
+}
+.search input ::placeholder{
+    font-style: italic;
+}
+.search .btn{
+    float: left;
+    width: 56px;
+    height: 36px;
+    background: url(./img/search.png) no-repeat 50% 50% #ff060f;
+    border-radius: 18px;
+}
+.shopcar{
+    position: absolute;
+    top: 34px;
+    right: 80px;
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    border: 2px solid #ff2337;
+    border-radius: 20px;
+    color: #333333;
+    padding-left: 17px;
+    cursor: pointer;
+    /* background: url(./img/shopcar.png) no-repeat; */
+}
+.shopcar::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background:url(./img/shopcar.png)  no-repeat;
+    margin-right: 9px;
+    margin-top: 2px;
+}
+/* 导航栏 */
+.nav{
+    height: 41px;
+    line-height: 41px;
+    border-bottom: 1px solid #ededee;
+    text-align: center;  
+}
+.nav .nav_l{
+    float: left;
+    width: 164px;
+    height: 41px;
+    border-bottom:1px solid #ff5160 ;
+    background: -webkit-linear-gradient(left,#ff070f ,#ff2d59);
+    color: #ffffff;
+    font-weight: bold;
+}
+.nav_r{
+    float: left;
+    margin-left: 5px;
+}
+.nav_r a{
+    margin-left: 40px;
+    font-weight: bold;
+}
+.nav_r a.active{
+    color: #ff1e32;
+}
+.nav_r a:hover{
+    color: #ff1e32;
+}

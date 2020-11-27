@@ -1,0 +1,114 @@
+.w{
+    width: 855px;
+    margin: 0 auto;
+}
+/*头部*/
+header{
+    height: 100px;
+    background-color: #ffffff;
+}
+.head{
+    height: 100px;
+}
+.head .fl{
+    margin-top: 20px;
+}
+.head .fr{
+    height: 100px;
+}
+// 内容
+.login-bd{
+    position: relative;
+    height: 600px;
+}
+.login-bd a{
+    position: absolute;
+    top: 50%;
+    margin-top: -180px;
+    width: 400px;
+    height: 360px;
+    line-height: 360px;
+}
+.loginBox{
+    position: absolute;
+    top: 110px;
+    left: 608px;
+    width: 352px;
+    height: 337px;
+    border: 1px solid #666;
+    background-color: #ffffff;
+}
+.loginBox h2{
+    font-size: 16px;
+    text-align: center;
+    line-height: 80px;
+    color: #333333;
+}
+.login-content{
+    padding: 0 40px;
+    width: 352px;
+    height: 195px;
+}
+.login-content input{
+    width: 270px;
+    height: 36px;
+    border: 1px solid #d5d5d5;
+    border-radius: 18px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    color: #333333
+}
+
+.login-content button{
+    width: 270px;
+    height: 36px;
+    border-radius: 18px;
+    font-weight: bold;
+}
+.login-content .login{
+    color: #ffffff;
+    background: red;
+    margin-bottom: 20px;
+}
+.login-content .register{
+    border: 1px solid red;
+    background-color: #ffffff;
+    color: red;
+}
+.copyright{
+    background-color: #ffffff;
+    border-top: 1px solid #eaeaea;
+}
+.copyright .w p,.copyright .w a{
+    color: #666666;
+}
+
+
+
+
+
+.box{
+    height: 1000px;
+}
+.ttop{
+    width: 20px;
+    height: 20px;
+    // background-color: #eaeaea;
+    margin-top: 100px;
+}
+.rr{
+   width: 100px;
+   height: 200px;
+   border: 1px solid #333333; 
+   position: absolute;
+   right: 20px;
+   top: 340px;
+}
+.right{
+    width: 100px;
+    height: 200px;
+    border: 1px solid #333333; 
+    position: fixed;
+    right: 20px;
+    top: 200px; 
+}

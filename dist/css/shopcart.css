@@ -1,0 +1,88 @@
+.cart {
+  font-size: 18px;
+  line-height: 40px;
+  color: #333333;
+  font-weight: bold;
+  background: url(../img/car.jpg) no-repeat 96px 11px;
+  background-size: 18px 18px; }
+
+footer .copyright {
+  background-color: #333333; }
+
+ul.contain {
+  margin-bottom: 60px; }
+  ul.contain li {
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+    height: 118px;
+    background-color: #fff; }
+    ul.contain li .choose {
+      position: absolute;
+      left: 20px;
+      top: 50%;
+      margin-top: -8px;
+      width: 15px;
+      height: 15px; }
+    ul.contain li .cartimg {
+      position: absolute;
+      left: 50px;
+      top: 20px;
+      width: 80px;
+      height: 80px; }
+      ul.contain li .cartimg img {
+        width: 80px;
+        height: 80px; }
+    ul.contain li .desc {
+      position: absolute;
+      left: 144px;
+      top: 20px;
+      width: 210px;
+      height: 80px;
+      margin-right: 210px; }
+      ul.contain li .desc p {
+        margin-top: 12px; }
+    ul.contain li .price {
+      position: absolute;
+      left: 475px;
+      top: 20px; }
+    ul.contain li .amount {
+      position: absolute;
+      left: 585px;
+      top: 50%;
+      margin-top: -11px;
+      width: 90px;
+      height: 20px;
+      border: 1px solid #eaeaea;
+      line-height: 20px;
+      text-align: center;
+      overflow: hidden; }
+      ul.contain li .amount .reduce {
+        float: left;
+        width: 22px;
+        height: 20px; }
+      ul.contain li .amount input {
+        float: left;
+        display: block;
+        width: 40px;
+        height: 20px;
+        border: 0;
+        text-align: center;
+        outline: none; }
+      ul.contain li .amount .add {
+        float: left;
+        width: 20px;
+        height: 20px; }
+    ul.contain li .sum {
+      position: absolute;
+      font-size: 15px;
+      left: 775px;
+      top: 20px; }
+    ul.contain li .del {
+      position: absolute;
+      right: 30px;
+      top: 20px;
+      width: 80px;
+      font-size: 12px; }
+      ul.contain li .del p {
+        margin-top: 15px; }

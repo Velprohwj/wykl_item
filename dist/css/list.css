@@ -1,0 +1,95 @@
+.nav .nav_l .ddBox {
+  display: none; }
+
+.nav .nav_l:hover .ddBox {
+  display: block; }
+
+.all {
+  clear: both;
+  padding: 8px 0 10px 0;
+  color: #333333;
+  font-size: 14px; }
+  .all a {
+    columns: #000000;
+    margin: 0 5px; }
+
+.goods-main {
+  overflow: hidden;
+  margin-bottom: 20px; }
+
+.goods-main li {
+  position: relative;
+  float: left;
+  margin-right: 12px;
+  margin-bottom: 15px;
+  width: 262px;
+  height: 456px;
+  background-color: #ffffff;
+  padding-left: 15px; }
+  .goods-main li .good-big {
+    width: 232px;
+    padding: 15px 15px 15px 0; }
+  .goods-main li .goodimglist {
+    overflow: hidden;
+    height: 32px; }
+    .goods-main li .goodimglist img {
+      float: left;
+      width: 32px;
+      margin-right: 10px; }
+  .goods-main li .good-price {
+    height: 22px;
+    line-height: 22px;
+    font-size: 22px;
+    margin: 15px 0;
+    color: red; }
+  .goods-main li .hk img {
+    height: 22px; }
+  .goods-main li .hk i {
+    line-height: 22px;
+    height: 23px;
+    color: #333;
+    font-size: 16px;
+    vertical-align: middle; }
+  .goods-main li h2 {
+    width: 232px;
+    height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: normal; }
+  .goods-main li .info {
+    height: 20px;
+    font-size: 13px; }
+    .goods-main li .info .self {
+      display: inline-block;
+      margin-right: 4px;
+      padding: 0 3px;
+      text-align: center;
+      line-height: 14px;
+      border: 1px solid #e31436;
+      background: #fff;
+      color: #e31436;
+      font-size: 12px;
+      border-radius: 2px; }
+    .goods-main li .info .public {
+      display: inline-block;
+      margin-right: 4px;
+      padding: 0 3px;
+      text-align: center;
+      line-height: 14px;
+      border: 1px solid #e31436;
+      background: #e31436;
+      color: #fff;
+      font-size: 12px;
+      border-radius: 2px; }
+  .goods-main li .goodinfo {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #333333; }
+    .goods-main li .goodinfo span {
+      float: right;
+      color: #999;
+      margin-right: 15px; }
+  .goods-main li .selfflag {
+    margin-top: 4px;
+    color: #333;
+    text-decoration: underline; }

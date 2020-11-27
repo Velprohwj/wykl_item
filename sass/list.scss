@@ -1,0 +1,126 @@
+.nav .nav_l .ddBox{
+    display: none;
+}
+.nav .nav_l:hover .ddBox{
+    display: block;
+}
+.all{
+    clear: both;
+    padding: 8px 0 10px 0;
+    color: #333333;
+    font-size: 14px;
+    a{
+        columns: #000000;;
+        margin:0 5px;
+    }
+}
+
+.goods-main{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.goods-main li{
+    position: relative;
+    float: left;
+    margin-right:12px;
+    margin-bottom: 15px;
+    width: 262px;
+    height: 456px;
+    background-color: #ffffff;
+    padding-left: 15px;
+    // .good-wrap{
+    //     position: absolute;
+    //     top: -1px;
+    //     left: -1px;
+    //     width: 264px;
+    //     height: 461px;
+    //     border: 1px solid #f3f3f3;
+    // }
+    .good-big{
+        width: 232px;
+        padding: 15px 15px 15px 0;
+    }
+    .goodimglist{
+        overflow: hidden;
+        height: 32px;
+        img{
+            float: left;
+            width: 32px;
+            margin-right:10px;
+        }
+    }
+    .good-price{
+        height: 22px;
+        line-height: 22px;
+        font-size: 22px;
+        margin:15px 0;
+        color: red;
+        
+    }
+    .hk{
+        img{
+            height: 22px; 
+         }
+         i{
+             line-height: 22px;
+             height: 23px;
+             color: #333;
+             font-size:16px;
+             vertical-align: middle;
+            //  margin-left: -2px;
+            //  vertical-align: sub;
+            //  background-color: #ffdcb0;
+         }
+    }
+    h2{
+        width: 232px;
+        height: 20px;
+        white-space: nowrap;
+        overflow: hidden;
+        font-weight: normal;
+    }
+    .info{
+        height: 20px;
+        font-size: 13px;
+        .self{
+            display: inline-block;
+            margin-right: 4px;
+            padding: 0 3px;
+            text-align: center;
+            line-height: 14px;
+            border: 1px solid #e31436;
+            background: #fff;
+            color: #e31436;
+            font-size: 12px;
+            border-radius: 2px;
+        }
+        .public{
+            display: inline-block;
+            margin-right: 4px;
+            padding: 0 3px;
+            text-align: center;
+            line-height: 14px;
+            border: 1px solid #e31436;
+            background: #e31436;
+            color: #fff;
+            font-size: 12px;
+            border-radius: 2px;
+        }
+    }
+    .goodinfo{
+        margin-top: 10px;
+        font-size: 12px;
+        // padding-left: 20px;
+        color: #333333;
+        span{
+            float: right;
+            color: #999;
+            margin-right: 15px;
+        }
+    }
+    .selfflag{
+        margin-top: 4px;
+        color: #333;
+        text-decoration: underline;
+    }   
+}

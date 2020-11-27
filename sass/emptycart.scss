@@ -1,0 +1,104 @@
+body{
+    background-color: #ffffff;
+}
+
+.guess-top{
+    display: none;
+    position: absolute;
+    top:500px;
+    right:50px;
+    padding: 10px 8px;
+    width: 32px;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    text-align: center;
+    line-height: normal;
+    cursor: pointer;
+    z-index: 101;
+}
+.nocart{
+    height: 218px;
+    .w{
+        position: relative;
+        .nothing{
+            position: absolute;
+            left: 376px;
+            top: 90px;
+            padding-left: 60px;
+            background: url(../img/car.jpg) no-repeat ;
+            p{
+                line-height: 24px;
+                color: #333;
+                font-size: 16px;
+                a{
+                    color: #d12147;
+                }
+            }
+        }
+    }
+}
+
+
+.nothing p a:hover{
+    color: firebrick;
+}
+
+.guess-like h4{
+    margin: 10px 0;
+    height: 38px;
+    line-height: 38px;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    i{
+        padding-left: 12px;
+        font-size: 14px;
+        color: #999999;
+        font-weight: normal;
+    }
+}
+.guess-like .guess-wrap{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    height: 321px;
+    .guess-goods{
+        height: 306px;
+        width: 204px;
+        border: 1px solid #eaeaea;
+        img{
+            width: 202px;
+        }
+        a{
+            display: block;
+            line-height: 20px;
+            font-weight: 400;
+            margin-bottom: 9px;
+            padding: 0 15px;
+            height: 40px;
+            color: #333;
+            overflow: hidden;
+        }
+        .g-price {
+            p{
+                padding: 0 15px;
+                line-height: 14px;
+                font-size: 16px;
+                color: red;
+                em{
+                    font-size: 12px;
+                    color: #666666;
+                    text-decoration: line-through;
+                }
+            }
+            a{
+                color: #666666;
+                font-size: 13px;
+                margin-top: 5px;
+            }
+        }
+    }
+}
+
+
+    

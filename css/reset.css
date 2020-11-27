@@ -17,9 +17,13 @@ fieldset,
 legend,
 input,
 textarea,
-select {
+select{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+*{
+  box-sizing: border-box;
 }
 body {
   font-size: 0.12rem;
@@ -30,7 +34,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #cd0200;
+  /* color: #cd0200; */
   text-decoration: none;
 }
 em {
@@ -65,4 +69,8 @@ textarea {
 }
 .right {
   float: right;
+}
+input,button{
+  border: 0;
+  outline: none;
 }
